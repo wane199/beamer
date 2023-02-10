@@ -54,7 +54,6 @@ biblio-title: References
 \def\endcols{\end{columns}}
 
 ```{r setup, include=FALSE}
-
 options(digits = 3)
 knitr::opts_chunk$set(
   comment = "#>",

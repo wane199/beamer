@@ -61,7 +61,30 @@ https://huhuaping.com/2021/02/01/css-base-xaringan/
 https://mpetroff.net/files/beamer-theme-matrix/
 https://wallpaperaccess.com/artificial-intelligence-brain
 ---
-# 吴环华工作汇报0130-0210
+# 吴环华工作汇报0213
+
+--
+### Targeting Journal:
+
+--
+
+  - The Lancet Digital Health, 
+  
+--
+
+  - Nature Machine Intelligence,
+
+--
+
+  - EBioMedicine,
+ 
+--
+
+  - JAMA Network Open...
+
+
+---
+# 吴环华工作汇报0130-0206
 
 --
 论文进度

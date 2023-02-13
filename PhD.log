@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.13)  14 FEB 2023 00:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.13)  14 FEB 2023 00:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1506,47 +1506,40 @@ Package pdftex.def Info: images/JNU1.jpg  used on input line 220.
 [9
 
  <./images/heatplot.png>]
-File: images/JNU1.jpg Graphic file (type jpg)
-<use images/JNU1.jpg>
-Package pdftex.def Info: images/JNU1.jpg  used on input line 223.
-(pdftex.def)             Requested size: 43.36139pt x 14.4535pt.
-[10
-
-]
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 247.
+(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 244.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/n' will be
-(Font)              scaled to size 10.95pt on input line 247.
+(Font)              scaled to size 10.95pt on input line 244.
 LaTeX Font Info:    Font shape `OT1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `OT1/SourceSansPro-TLF/regular/n' on input line 247.
+(Font)              `OT1/SourceSansPro-TLF/regular/n' on input line 244.
 LaTeX Font Info:    Font shape `OT1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 5.0pt on input line 247.
+(Font)              scaled to size 5.0pt on input line 244.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 247.
+(Font)              <5> on input line 244.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 247.
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 244.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 5.0pt on input line 247.
+(Font)              scaled to size 5.0pt on input line 244.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 247.
+(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 244.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/it' will be
-(Font)              scaled to size 5.0pt on input line 247.
+(Font)              scaled to size 5.0pt on input line 244.
 
-Overfull \hbox (2.94586pt too wide) in paragraph at lines 247--247
+Overfull \hbox (2.94586pt too wide) in paragraph at lines 244--244
  [] 
  []
 
 File: images/JNU1.jpg Graphic file (type jpg)
 <use images/JNU1.jpg>
-Package pdftex.def Info: images/JNU1.jpg  used on input line 247.
+Package pdftex.def Info: images/JNU1.jpg  used on input line 244.
 (pdftex.def)             Requested size: 43.36139pt x 14.4535pt.
-[11
+[10
 
 ]
 \openout4 = `PhD.vrb'.
 
 (./PhD.vrb
-<images/AdaBoost.png, id=176, 704.6325pt x 373.395pt>
+<images/AdaBoost.png, id=169, 704.6325pt x 373.395pt>
 File: images/AdaBoost.png Graphic file (type png)
 <use images/AdaBoost.png>
 Package pdftex.def Info: images/AdaBoost.png  used on input line 5.
@@ -1566,11 +1559,18 @@ LaTeX Font Info:    Font shape `TS1/SourceCodePro-TLF/m/n' will be
 )
 File: images/JNU1.jpg Graphic file (type jpg)
 <use images/JNU1.jpg>
-Package pdftex.def Info: images/JNU1.jpg  used on input line 265.
+Package pdftex.def Info: images/JNU1.jpg  used on input line 262.
+(pdftex.def)             Requested size: 43.36139pt x 14.4535pt.
+[11
+
+ <./images/AdaBoost.png>]
+File: images/JNU1.jpg Graphic file (type jpg)
+<use images/JNU1.jpg>
+Package pdftex.def Info: images/JNU1.jpg  used on input line 287.
 (pdftex.def)             Requested size: 43.36139pt x 14.4535pt.
 [12
 
- <./images/AdaBoost.png>]
+]
 File: images/JNU1.jpg Graphic file (type jpg)
 <use images/JNU1.jpg>
 Package pdftex.def Info: images/JNU1.jpg  used on input line 290.
@@ -1578,78 +1578,101 @@ Package pdftex.def Info: images/JNU1.jpg  used on input line 290.
 [13
 
 ]
-File: images/JNU1.jpg Graphic file (type jpg)
-<use images/JNU1.jpg>
-Package pdftex.def Info: images/JNU1.jpg  used on input line 293.
-(pdftex.def)             Requested size: 43.36139pt x 14.4535pt.
-[14
-
-]
-<images/eli5.png, id=202, 379.4175pt x 343.2825pt>
+<images/eli5.png, id=195, 379.4175pt x 343.2825pt>
 File: images/eli5.png Graphic file (type png)
 <use images/eli5.png>
-Package pdftex.def Info: images/eli5.png  used on input line 305.
+Package pdftex.def Info: images/eli5.png  used on input line 302.
 (pdftex.def)             Requested size: 184.3758pt x 166.81656pt.
 File: images/JNU1.jpg Graphic file (type jpg)
 <use images/JNU1.jpg>
-Package pdftex.def Info: images/JNU1.jpg  used on input line 305.
+Package pdftex.def Info: images/JNU1.jpg  used on input line 302.
 (pdftex.def)             Requested size: 43.36139pt x 14.4535pt.
-[15
+[14
 
  <./images/eli5.png>]
-<images/pdp_1.png, id=211, 988.69376pt x 526.96875pt>
+<images/pdp_1.png, id=204, 988.69376pt x 526.96875pt>
 File: images/pdp_1.png Graphic file (type png)
 <use images/pdp_1.png>
-Package pdftex.def Info: images/pdp_1.png  used on input line 327.
+Package pdftex.def Info: images/pdp_1.png  used on input line 324.
 (pdftex.def)             Requested size: 170.71652pt x 90.99065pt.
 
-Overfull \hbox (47.80246pt too wide) in paragraph at lines 327--327
+Overfull \hbox (47.80246pt too wide) in paragraph at lines 324--324
  [] 
  []
 
-<images/pdp_2.png, id=212, 988.69376pt x 526.96875pt>
+<images/pdp_2.png, id=205, 988.69376pt x 526.96875pt>
 File: images/pdp_2.png Graphic file (type png)
 <use images/pdp_2.png>
-Package pdftex.def Info: images/pdp_2.png  used on input line 327.
+Package pdftex.def Info: images/pdp_2.png  used on input line 324.
 (pdftex.def)             Requested size: 170.71652pt x 90.99065pt.
 
-Overfull \hbox (17.0716pt too wide) in paragraph at lines 327--327
+Overfull \hbox (17.0716pt too wide) in paragraph at lines 324--324
  [] 
  []
 
 File: images/JNU1.jpg Graphic file (type jpg)
 <use images/JNU1.jpg>
-Package pdftex.def Info: images/JNU1.jpg  used on input line 327.
+Package pdftex.def Info: images/JNU1.jpg  used on input line 324.
 (pdftex.def)             Requested size: 43.36139pt x 14.4535pt.
-[16
+[15
 
  <./images/pdp_1.png> <./images/pdp_2.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{partial-dependence-plot}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.327 \end{frame}
+l.324 \end{frame}
                  
 File: images/pdp_1.png Graphic file (type png)
 <use images/pdp_1.png>
-Package pdftex.def Info: images/pdp_1.png  used on input line 327.
+Package pdftex.def Info: images/pdp_1.png  used on input line 324.
 (pdftex.def)             Requested size: 170.71652pt x 90.99065pt.
 
-Overfull \hbox (47.80246pt too wide) in paragraph at lines 327--327
+Overfull \hbox (47.80246pt too wide) in paragraph at lines 324--324
  [] 
  []
 
 File: images/pdp_2.png Graphic file (type png)
 <use images/pdp_2.png>
-Package pdftex.def Info: images/pdp_2.png  used on input line 327.
+Package pdftex.def Info: images/pdp_2.png  used on input line 324.
 (pdftex.def)             Requested size: 170.71652pt x 90.99065pt.
 
-Overfull \hbox (17.0716pt too wide) in paragraph at lines 327--327
+Overfull \hbox (17.0716pt too wide) in paragraph at lines 324--324
  [] 
  []
 
 File: images/JNU1.jpg Graphic file (type jpg)
 <use images/JNU1.jpg>
-Package pdftex.def Info: images/JNU1.jpg  used on input line 327.
+Package pdftex.def Info: images/JNU1.jpg  used on input line 324.
+(pdftex.def)             Requested size: 43.36139pt x 14.4535pt.
+[16
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{partial-dependence-plot}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.324 \end{frame}
+                 
+File: images/pdp_1.png Graphic file (type png)
+<use images/pdp_1.png>
+Package pdftex.def Info: images/pdp_1.png  used on input line 324.
+(pdftex.def)             Requested size: 170.71652pt x 90.99065pt.
+
+Overfull \hbox (47.80246pt too wide) in paragraph at lines 324--324
+ [] 
+ []
+
+File: images/pdp_2.png Graphic file (type png)
+<use images/pdp_2.png>
+Package pdftex.def Info: images/pdp_2.png  used on input line 324.
+(pdftex.def)             Requested size: 170.71652pt x 90.99065pt.
+
+Overfull \hbox (17.0716pt too wide) in paragraph at lines 324--324
+ [] 
+ []
+
+File: images/JNU1.jpg Graphic file (type jpg)
+<use images/JNU1.jpg>
+Package pdftex.def Info: images/JNU1.jpg  used on input line 324.
 (pdftex.def)             Requested size: 43.36139pt x 14.4535pt.
 [17
 
@@ -1657,56 +1680,33 @@ Package pdftex.def Info: images/JNU1.jpg  used on input line 327.
 pdfTeX warning (ext4): destination with the same identifier (name{partial-dependence-plot}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.327 \end{frame}
+l.324 \end{frame}
                  
 File: images/pdp_1.png Graphic file (type png)
 <use images/pdp_1.png>
-Package pdftex.def Info: images/pdp_1.png  used on input line 327.
+Package pdftex.def Info: images/pdp_1.png  used on input line 324.
 (pdftex.def)             Requested size: 170.71652pt x 90.99065pt.
 
-Overfull \hbox (47.80246pt too wide) in paragraph at lines 327--327
+Overfull \hbox (47.80246pt too wide) in paragraph at lines 324--324
  [] 
  []
 
 File: images/pdp_2.png Graphic file (type png)
 <use images/pdp_2.png>
-Package pdftex.def Info: images/pdp_2.png  used on input line 327.
+Package pdftex.def Info: images/pdp_2.png  used on input line 324.
 (pdftex.def)             Requested size: 170.71652pt x 90.99065pt.
 
-Overfull \hbox (17.0716pt too wide) in paragraph at lines 327--327
+Overfull \hbox (17.0716pt too wide) in paragraph at lines 324--324
  [] 
  []
 
 File: images/JNU1.jpg Graphic file (type jpg)
 <use images/JNU1.jpg>
-Package pdftex.def Info: images/JNU1.jpg  used on input line 327.
+Package pdftex.def Info: images/JNU1.jpg  used on input line 324.
 (pdftex.def)             Requested size: 43.36139pt x 14.4535pt.
 [18
 
 ]
-pdfTeX warning (ext4): destination with the same identifier (name{partial-dependence-plot}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.327 \end{frame}
-                 
-File: images/pdp_1.png Graphic file (type png)
-<use images/pdp_1.png>
-Package pdftex.def Info: images/pdp_1.png  used on input line 327.
-(pdftex.def)             Requested size: 170.71652pt x 90.99065pt.
-
-Overfull \hbox (47.80246pt too wide) in paragraph at lines 327--327
- [] 
- []
-
-File: images/pdp_2.png Graphic file (type png)
-<use images/pdp_2.png>
-Package pdftex.def Info: images/pdp_2.png  used on input line 327.
-(pdftex.def)             Requested size: 170.71652pt x 90.99065pt.
-
-Overfull \hbox (17.0716pt too wide) in paragraph at lines 327--327
- [] 
- []
-
 File: images/JNU1.jpg Graphic file (type jpg)
 <use images/JNU1.jpg>
 Package pdftex.def Info: images/JNU1.jpg  used on input line 327.
@@ -1716,14 +1716,19 @@ Package pdftex.def Info: images/JNU1.jpg  used on input line 327.
 ]
 File: images/JNU1.jpg Graphic file (type jpg)
 <use images/JNU1.jpg>
-Package pdftex.def Info: images/JNU1.jpg  used on input line 330.
+Package pdftex.def Info: images/JNU1.jpg  used on input line 338.
 (pdftex.def)             Requested size: 43.36139pt x 14.4535pt.
 [20
 
 ]
+pdfTeX warning (ext4): destination with the same identifier (name{key-points}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.338 \end{frame}
+                 
 File: images/JNU1.jpg Graphic file (type jpg)
 <use images/JNU1.jpg>
-Package pdftex.def Info: images/JNU1.jpg  used on input line 341.
+Package pdftex.def Info: images/JNU1.jpg  used on input line 338.
 (pdftex.def)             Requested size: 43.36139pt x 14.4535pt.
 [21
 
@@ -1731,30 +1736,30 @@ Package pdftex.def Info: images/JNU1.jpg  used on input line 341.
 pdfTeX warning (ext4): destination with the same identifier (name{key-points}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.341 \end{frame}
+l.338 \end{frame}
                  
 File: images/JNU1.jpg Graphic file (type jpg)
 <use images/JNU1.jpg>
-Package pdftex.def Info: images/JNU1.jpg  used on input line 341.
+Package pdftex.def Info: images/JNU1.jpg  used on input line 338.
 (pdftex.def)             Requested size: 43.36139pt x 14.4535pt.
 [22
 
 ]
-pdfTeX warning (ext4): destination with the same identifier (name{key-points}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.341 \end{frame}
-                 
 File: images/JNU1.jpg Graphic file (type jpg)
 <use images/JNU1.jpg>
-Package pdftex.def Info: images/JNU1.jpg  used on input line 341.
+Package pdftex.def Info: images/JNU1.jpg  used on input line 349.
 (pdftex.def)             Requested size: 43.36139pt x 14.4535pt.
 [23
 
 ]
+pdfTeX warning (ext4): destination with the same identifier (name{limitations}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.349 \end{frame}
+                 
 File: images/JNU1.jpg Graphic file (type jpg)
 <use images/JNU1.jpg>
-Package pdftex.def Info: images/JNU1.jpg  used on input line 352.
+Package pdftex.def Info: images/JNU1.jpg  used on input line 349.
 (pdftex.def)             Requested size: 43.36139pt x 14.4535pt.
 [24
 
@@ -1762,52 +1767,40 @@ Package pdftex.def Info: images/JNU1.jpg  used on input line 352.
 pdfTeX warning (ext4): destination with the same identifier (name{limitations}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.352 \end{frame}
+l.349 \end{frame}
                  
 File: images/JNU1.jpg Graphic file (type jpg)
 <use images/JNU1.jpg>
-Package pdftex.def Info: images/JNU1.jpg  used on input line 352.
+Package pdftex.def Info: images/JNU1.jpg  used on input line 349.
 (pdftex.def)             Requested size: 43.36139pt x 14.4535pt.
 [25
 
 ]
-pdfTeX warning (ext4): destination with the same identifier (name{limitations}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.352 \end{frame}
-                 
 File: images/JNU1.jpg Graphic file (type jpg)
 <use images/JNU1.jpg>
-Package pdftex.def Info: images/JNU1.jpg  used on input line 352.
+Package pdftex.def Info: images/JNU1.jpg  used on input line 366.
 (pdftex.def)             Requested size: 43.36139pt x 14.4535pt.
 [26
 
 ]
-File: images/JNU1.jpg Graphic file (type jpg)
-<use images/JNU1.jpg>
-Package pdftex.def Info: images/JNU1.jpg  used on input line 369.
-(pdftex.def)             Requested size: 43.36139pt x 14.4535pt.
-[27
-
-]
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/it' aliased to
-(Font)              `T1/SourceSansPro-TLF/bold/it' on input line 406.
+(Font)              `T1/SourceSansPro-TLF/bold/it' on input line 403.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/it' will be
-(Font)              scaled to size 10.95pt on input line 406.
+(Font)              scaled to size 10.95pt on input line 403.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/it' aliased to
-(Font)              `T1/SourceSansPro-TLF/bold/it' on input line 406.
+(Font)              `T1/SourceSansPro-TLF/bold/it' on input line 403.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/it' will be
-(Font)              scaled to size 24.88pt on input line 406.
-<images/AI.jpg, id=296, 1927.2pt x 1084.05pt>
+(Font)              scaled to size 24.88pt on input line 403.
+<images/AI.jpg, id=291, 1927.2pt x 1084.05pt>
 File: images/AI.jpg Graphic file (type jpg)
 <use images/AI.jpg>
-Package pdftex.def Info: images/AI.jpg  used on input line 406.
+Package pdftex.def Info: images/AI.jpg  used on input line 403.
 (pdftex.def)             Requested size: 364.17215pt x 273.14566pt.
 File: images/JNU1.jpg Graphic file (type jpg)
 <use images/JNU1.jpg>
-Package pdftex.def Info: images/JNU1.jpg  used on input line 406.
+Package pdftex.def Info: images/JNU1.jpg  used on input line 403.
 (pdftex.def)             Requested size: 43.36139pt x 14.4535pt.
-[28
+[27
 
  <./images/AI.jpg>]
 \tf@nav=\write5
@@ -1821,21 +1814,21 @@ Package pdftex.def Info: images/JNU1.jpg  used on input line 406.
 
 (./PhD.aux) ) 
 Here is how much of TeX's memory you used:
- 32933 strings out of 477969
- 668712 string characters out of 5836930
+ 32950 strings out of 477969
+ 669127 string characters out of 5836930
  1868340 words of memory out of 5000000
- 52045 multiletter control sequences out of 15000+600000
- 727018 words of font info for 220 fonts, out of 8000000 for 9000
+ 52060 multiletter control sequences out of 15000+600000
+ 728098 words of font info for 224 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  101i,14n,104p,1000b,842s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/Users/wane1/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/sourcesanspro/a_emkxm5.enc}{c:/Users/wane1/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/sourcecodepro/a_bzs6pp.enc}{c:/Users/wane1/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/sourcecodepro/a_lutrty.enc}<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc>{c:/Users/wane1/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc
+{c:/Users/wane1/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/sourcesanspro/a_emkxm5.enc}<c:/Windows/Fonts/simsun.ttc>{c:/Users/wane1/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/sourcecodepro/a_bzs6pp.enc}{c:/Users/wane1/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/sourcecodepro/a_lutrty.enc}<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc>{c:/Users/wane1/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc
 
 pdfTeX warning: pdflatex.exe (file c:/Windows/Fonts/simsun.ttc): subfont unisong20: wrong mapping: character 3 --> 0x2003 --> .notdef
 ><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Users/wane1/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/adobe/sourcecodepro/SourceCodePro-Regular.pfb><c:/Users/wane1/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb><c:/Users/wane1/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-BoldIt.pfb><c:/Users/wane1/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-It.pfb><c:/Users/wane1/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Regular.pfb><c:/Users/wane1/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb><c:/Users/wane1/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on PhD.pdf (28 pages, 3135989 bytes).
+Output written on PhD.pdf (27 pages, 3142189 bytes).
 PDF statistics:
- 491 PDF objects out of 1000 (max. 8388607)
- 341 compressed objects within 4 object streams
- 87 named destinations out of 1000 (max. 500000)
- 65828 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 485 PDF objects out of 1000 (max. 8388607)
+ 334 compressed objects within 4 object streams
+ 84 named destinations out of 1000 (max. 500000)
+ 65824 words of extra memory for PDF output out of 74296 (max. 10000000)
 

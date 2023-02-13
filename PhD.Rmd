@@ -9,14 +9,14 @@ fontsize: 11pt
 output:
     beamer_presentation:
     citation_package: natbib
-    theme: Singapore # https://mpetroff.net/files/beamer-theme-matrix/ # $^{18}$F-FDG 
+    theme: Pittsburgh # Singapore # https://mpetroff.net/files/beamer-theme-matrix/ # $^{18}$F-FDG 
     fonttheme: structurebold
-    colortheme: seahorse
+    colortheme: spruce
     fig_caption: yes
     incremental: no
     keep_tex: no
     latex_engine: xelatex
-    # slide_level: 2
+    slide_level: 2
     toc: yes
 
 section-titles: true
@@ -130,8 +130,6 @@ knitr::include_graphics(c("images/PET_radiomics.png"))
 knitr::include_graphics(c("images/heatplot.png"))
 ```
 
-# The Model
-
 ## Benchmark
 
 **Table 1:** Performance Comparison Eleven ML Algorithms
@@ -188,7 +186,7 @@ Std                            & 0.047                        & 0.172           
 \end{table}
 
 
-# The Explanation 
+# 第三部分&emsp;颞叶癫痫患者术后复发预测研究
 
 ## Permutation Importance
 
@@ -215,7 +213,7 @@ PDP plots:
 \end{columns}
 \end{itemize}
 
-# Conclusion
+# 第四部分&emsp;总结与展望
 
 ## Key Points
 

@@ -45,7 +45,7 @@ biblio-title: References
 \begin{tikzpicture}[remember picture,overlay]
 \node[inner sep = 0pt, outer sep = 0pt,opacity=0.65]
   at (current page.center)
-  {\includegraphics[width=\paperwidth,height=\paperheight]{images/AI.jpg}};
+  {\includegraphics[width=\paperwidth,height=\paperheight]{images/AI_brain.png}};
 \end{tikzpicture}%
 }
 \def\begincols{\begin{columns}}
@@ -242,7 +242,6 @@ PDP plots:
 
 
 小结
-
 
 
 

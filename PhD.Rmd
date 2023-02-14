@@ -9,8 +9,8 @@ fontsize: 11pt
 output:
     beamer_presentation:
     citation_package: natbib
-    theme: Pittsburgh # Singapore # https://mpetroff.net/files/beamer-theme-matrix/ # $^{18}$F-FDG 
-    fonttheme: structurebold
+    theme: metropolis # Pittsburgh # Singapore https://mpetroff.net/files/beamer-theme-matrix/ # $^{18}$F-FDG 
+    fonttheme: circles # structurebold
     colortheme: spruce
     fig_caption: yes
     incremental: no
@@ -18,7 +18,7 @@ output:
     latex_engine: xelatex
     slide_level: 2
     toc: yes
-
+    background-image: ./images/AI_brain.png   
 section-titles: true
 indent: yes
 header-includes:
@@ -38,7 +38,7 @@ biblio-style: apalike
 link-citations: yes
 colorlinks: yes
 linkcolor: ForestGreen
-classoption: fontset=fandol #dvipsnames, UTF8
+classoption: "dvipsnames,UTF8" # fontset=fandol
 biblio-title: References
 ---
 \setbeamercolor{titlelike}{bg=black,fg=white}
@@ -49,12 +49,10 @@ biblio-title: References
   {\includegraphics[width=\paperwidth,height=\paperheight]{images/AI.jpg}};
 \end{tikzpicture}%
 }
-
 \def\begincols{\begin{columns}}
 \def\begincol{\begin{column}}
 \def\endcol{\end{column}}
 \def\endcols{\end{columns}}
-
 ```{r setup, include=FALSE}
 options(digits = 3)
 knitr::opts_chunk$set(
@@ -80,13 +78,13 @@ lgr::get_logger("bbotk")$set_threshold("warn")
 
 # 第一部分&emsp;绪论 
 
-## Background
+## 癫痫相关知识介绍
 
 ```{r echo=FALSE, out.width=c("100%"), fig.cap="Epilepsy Epidemiology"}
 knitr::include_graphics(c("images/global_epi.png"))
 ```
 
-## Aims
+## 研究背景及意义
 
 \begin{columns}
 \column{.45\textwidth}
@@ -105,32 +103,47 @@ knitr::include_graphics(c("images/global_epi.png"))
 \end{figure}
 \end{columns}
 
-<!-- ##  -->
+<!-- ## -->
 
 <!-- ```{r echo=FALSE, out.width=c("70%", "80%"),fig.cap="Focus on Interpretability of ML"} -->
 <!-- knitr::include_graphics(c("images/Black-box.png", "images/xai.png")) -->
 <!-- ``` -->
-## Scheme
+## 癫痫影像学国内外文献计量学分析
 
 ```{r echo=FALSE, out.width=c("85%"),fig.align="center", fig.cap="Flowchart of TLE Postsurgical IML"}
 knitr::include_graphics(c("images/TLE_EML_Flow.png"))
 ```
 
+## 研究内容及目标
+
+研究内容及目标
+
+
+
+
+## 论文的组织结构
+
+
+
+论文的组织结构
+
+
+
 # 第二部分&emsp;颞叶癫痫患者术前定位研究
 
-## Combined of PET Radiomics and Clinical Features
+## 引言
 
 ```{r echo=FALSE, out.width=c("110%"),fig.align="center", fig.cap="PET Radiomics  Score and Clinical-PET Features"}
 knitr::include_graphics(c("images/PET_radiomics.png"))
 ```
 
-## Exploratory Data Analysis
+## 材料与方法
 
 ```{r echo=FALSE, out.width=c("60%"),fig.align="center", fig.cap="Heatmap of Clinical-PET Features"}
 knitr::include_graphics(c("images/heatplot.png"))
 ```
 
-## Benchmark
+## 实验结果
 
 **Table 1:** Performance Comparison Eleven ML Algorithms
 \centering
@@ -153,7 +166,7 @@ Std                             & 0.047    & 0.172 & 0.320  & 0.490 & 0.367 & 0.
 \end{tabular}
 \end{table}
 
-## AdaBoost Algorithm
+## 讨论
 
 ```{r echo=FALSE, out.width=c("80%"),fig.align="center", fig.cap="Illustration of AdaBoost Algorithm"}
 knitr::include_graphics(c("images/AdaBoost.png"))
@@ -161,7 +174,7 @@ knitr::include_graphics(c("images/AdaBoost.png"))
 - `AdaBoostClassifier(algorithm='SAMME', base_estimator=None, learning_rate=0.2,
                    n_estimators=230, random_state=123)` 
 
-## Tuned AdaBoost
+## 小结
 
 **Table 2:** K-folds Cross-validation of the Selected AdaBoost
 \centering
@@ -188,13 +201,13 @@ Std                            & 0.047                        & 0.172           
 
 # 第三部分&emsp;颞叶癫痫患者术后复发预测研究
 
-## Permutation Importance
+## 引言
 
 ```{r echo=FALSE, out.width="60%", fig.align="center", fig.cap="Permutation Importance of AdaBoost"}
 knitr::include_graphics("images/eli5.png")
 ``` 
 
-## Partial Dependence Plot
+## 材料与方法
 PDP plots:
 \begin{itemize}[<+->]
 \item \begin{columns}
@@ -213,9 +226,35 @@ PDP plots:
 \end{columns}
 \end{itemize}
 
+
+## 实验结果
+
+
+实验结果
+
+## 讨论
+
+
+讨论
+
+
+
+## 小结
+
+
+小结
+
+
+
+
+
+
+
 # 第四部分&emsp;总结与展望
 
-## Key Points
+## 结论
+
+
 
 \begin{itemize}[<+->]
 \item Metabolic radiomics are helpful to predict the postsurgical seizure outcomes;
@@ -225,7 +264,7 @@ PDP plots:
 \item IML technique can further deepen the understanding of the principle of ML models and the decision-making process for professional and intuitive interpretation
 \end{itemize}
 
-## Limitations
+## 研究领域展望
 
 \begin{itemize}[<+->]
 \item More data, especially external validation cohort;

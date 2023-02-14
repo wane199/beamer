@@ -1,26 +1,25 @@
 ---
 title: "基于人工智能技术在颞叶癫痫患者$^{18}$F-FDG PET/MRI多模态影像研究" 
-subtitle: ""
+subtitle: "博士论文答辩"
 author: 
   - "汇报人：吴环华  \t\n 导师：徐浩&emsp;教授$^{*}$ &nbsp;"
 institute:  暨南大学第一临床医学院 &nbsp;
 date: "`r Sys.Date()`"
 fontsize: 11pt
-output:
-    beamer_presentation:
+output: 
+  beamer_presentation: 
     citation_package: natbib
-    theme: metropolis # Pittsburgh # Singapore https://mpetroff.net/files/beamer-theme-matrix/ # $^{18}$F-FDG 
-    fonttheme: circles # structurebold
-    colortheme: spruce
+    theme:  Singapore # Montpellier metropolis Madrid Pittsburgh Malmoe Warsaw https://mpetroff.net/files/beamer-theme-matrix/ 
+    fonttheme: structurebold
+    colortheme: spruce # whale # seahorse
     fig_caption: yes
     incremental: no
     keep_tex: no
     latex_engine: xelatex
     slide_level: 2
     toc: yes
-    background-image: ./images/AI_brain.png   
 section-titles: true
-indent: yes
+indent: true
 header-includes:
 - \titlegraphic{\includegraphics[height=1.5cm]{images/First.jpg}}
 - \logo{\includegraphics[width=0.6in,height=0.2in]{images/JNU1.jpg}}
@@ -288,3 +287,4 @@ For more theoretical approaches to machine learning model explanation, see [Inte
   \emph{\textbf{\Huge{{THANKS !}}}}
 \end{center}
 \Background
+

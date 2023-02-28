@@ -75,7 +75,7 @@ lgr::get_logger("mlr3")$set_threshold("warn")
 lgr::get_logger("bbotk")$set_threshold("warn")
 ```
 
-# 第一部分&emsp;绪论 
+# 第一章&emsp;癫痫影像学研究背景及前沿方向的文献计量分析	2
 
 ## 癫痫相关知识介绍
 
@@ -128,7 +128,7 @@ knitr::include_graphics(c("images/TLE_EML_Flow.png"))
 
 
 
-# 第二部分&emsp;颞叶癫痫患者术前定位研究
+# 第二章&emsp;颞叶癫痫患者术前定位研究
 
 ## 引言
 
@@ -198,7 +198,7 @@ Std                            & 0.047                        & 0.172           
 \end{table}
 
 
-# 第三部分&emsp;颞叶癫痫患者术后复发预测研究
+# 第三章&emsp;颞叶癫痫患者术后复发预测研究
 
 ## 引言
 

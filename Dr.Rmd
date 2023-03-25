@@ -1,6 +1,6 @@
 ---
-title: "基于人工智能技术在颞叶癫痫患者$^{18}$F-FDG PET/MRI多模态影像研究" 
-subtitle: "博士论文答辩"
+title: "基于人工智能技术在颞叶癫痫$^{18}$F-FDG PET/MRI多模态影像研究" 
+subtitle: "博士论文预答辩"
 author: 
   - "汇报人：吴环华  \t\n 导师：徐浩&emsp;教授$^{*}$ &nbsp;"
 institute:  暨南大学第一临床医学院 &nbsp;
@@ -9,9 +9,9 @@ fontsize: 11pt
 output: 
   beamer_presentation: 
     citation_package: natbib
-    theme:  Singapore # Montpellier metropolis Madrid Pittsburgh Malmoe Warsaw https://mpetroff.net/files/beamer-theme-matrix/ 
+    theme:  Singapore # Montpellier metropolis Madrid Pittsburgh Malmoe  Warsaw https://mpetroff.net/files/beamer-theme-matrix/ 
     fonttheme: structurebold
-    colortheme: spruce # whale # seahorse
+    colortheme: beaver #spruce # whale # seahorse
     fig_caption: yes
     incremental: no
     keep_tex: no
@@ -75,15 +75,15 @@ lgr::get_logger("mlr3")$set_threshold("warn")
 lgr::get_logger("bbotk")$set_threshold("warn")
 ```
 
-# 第一章&emsp;癫痫影像学研究背景及前沿方向的文献计量分析	2
+# 第一章&emsp;基于文献计量分析的癫痫影像学与人工智能的研究
 
-## 癫痫相关知识介绍
+## 引言
 
 ```{r echo=FALSE, out.width=c("100%"), fig.cap="Epilepsy Epidemiology"}
 knitr::include_graphics(c("images/global_epi.png"))
 ```
 
-## 研究背景及意义
+## 材料与方法
 
 \begin{columns}
 \column{.45\textwidth}
@@ -106,26 +106,26 @@ knitr::include_graphics(c("images/global_epi.png"))
 
 <!-- ```{r echo=FALSE, out.width=c("70%", "80%"),fig.cap="Focus on Interpretability of ML"} -->
 <!-- knitr::include_graphics(c("images/Black-box.png", "images/xai.png")) -->
-<!-- ``` -->
-## 癫痫影像学国内外文献计量学分析
 
-```{r echo=FALSE, out.width=c("85%"),fig.align="center", fig.cap="Flowchart of TLE Postsurgical IML"}
-knitr::include_graphics(c("images/TLE_EML_Flow.png"))
+```{r echo=FALSE, out.width=c("110%"),fig.align="center", fig.cap="PET Radiomics  Score and Clinical-PET Features"}
+knitr::include_graphics(c("images/PET_radiomics.png"))
 ```
 
-## 研究内容及目标
 
-研究内容及目标
+```{r echo=FALSE, out.width=c("60%"),fig.align="center", fig.cap="Heatmap of Clinical-PET Features"}
+knitr::include_graphics(c("images/heatplot.png"))
+```
 
-
-
-
-## 论文的组织结构
+## 实验结果
 
 
 
-论文的组织结构
 
+## 讨论
+
+
+
+## 小结
 
 
 # 第二章&emsp;颞叶癫痫患者术前定位研究
@@ -247,8 +247,7 @@ PDP plots:
 
 
 
-
-# 第四部分&emsp;总结与展望
+# 第四章&emsp;总结与展望
 
 ## 结论
 

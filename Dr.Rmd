@@ -77,13 +77,26 @@ lgr::get_logger("bbotk")$set_threshold("warn")
 
 # 第一章&emsp;基于文献计量分析的癫痫影像学与人工智能的研究
 
-## 引言
-
+## 引言 {.allowframebreaks}
+图 1.1（A）2016年全球特发性癫痫的年龄标准化流行率地图和（B）中国国家癫痫预防和控制管理项目覆盖的农村地区
 ```{r echo=FALSE, out.width=c("100%"), fig.cap="Epilepsy Epidemiology"}
-knitr::include_graphics(c("images/global_epi.png"))
+knitr::include_graphics(c("Dr_pic/图1.1.pdf"))
 ```
 
-## 材料与方法
+\newpage
+图1.2 癫痫疾病不同影像检查技术时空分辨率比较^[23]^
+
+---
+
+图1.3 $^{18}$F-FDG PET成像原理图
+
+
+
+\newpage
+图1.4 18F-FDG PET/MRI多模态融合示例图
+
+
+## 材料与方法 {.allowframebreaks}
 
 \begin{columns}
 \column{.45\textwidth}
@@ -107,18 +120,26 @@ knitr::include_graphics(c("images/global_epi.png"))
 <!-- ```{r echo=FALSE, out.width=c("70%", "80%"),fig.cap="Focus on Interpretability of ML"} -->
 <!-- knitr::include_graphics(c("images/Black-box.png", "images/xai.png")) -->
 
+---
+
 ```{r echo=FALSE, out.width=c("110%"),fig.align="center", fig.cap="PET Radiomics  Score and Clinical-PET Features"}
 knitr::include_graphics(c("images/PET_radiomics.png"))
 ```
 
+---
 
+相关热图
 ```{r echo=FALSE, out.width=c("60%"),fig.align="center", fig.cap="Heatmap of Clinical-PET Features"}
 knitr::include_graphics(c("images/heatplot.png"))
 ```
 
 ## 实验结果
 
+shiyan1
 
+---
+
+shiyan
 
 
 ## 讨论
@@ -135,6 +156,12 @@ knitr::include_graphics(c("images/heatplot.png"))
 ```{r echo=FALSE, out.width=c("110%"),fig.align="center", fig.cap="PET Radiomics  Score and Clinical-PET Features"}
 knitr::include_graphics(c("images/PET_radiomics.png"))
 ```
+
+---
+\pagebreak
+
+
+
 
 ## 材料与方法
 

@@ -90,7 +90,7 @@ knitr::include_graphics(c("images/global_epi.png"))
 \begin{figure}
 \centering
 % Requires \usepackage{graphicx}
-\includegraphics[width=5.5cm]{images/Black-box.png}
+\includegraphics[width=5.5cm]{images/PT_T1_BLS-Siamese.pdf}
 \caption{Black-box of AI}
 \end{figure}
 \column{.65\textwidth}

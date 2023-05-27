@@ -75,10 +75,10 @@ lgr::get_logger("mlr3")$set_threshold("warn")
 lgr::get_logger("bbotk")$set_threshold("warn")
 ```
 
-# 第一章&emsp;基于文献计量分析的癫痫影像学与人工智能的研究
+# 绪论
 
 ## 引言 {.allowframebreaks}
-图 1.1（A）2016年全球特发性癫痫的年龄标准化流行率地图和（B）中国国家癫痫预防和控制管理项目覆盖的农村地区
+图1（A）2016年全球特发性癫痫的年龄标准化流行率地图和（B）中国国家癫痫预防和控制管理项目覆盖的农村地区
 ```{r echo=FALSE, out.width=c("100%"), fig.cap="Epilepsy Epidemiology"}
 knitr::include_graphics(c("Dr_pic/图1.1.pdf"))
 ```
@@ -149,7 +149,7 @@ shiyan
 ## 小结
 
 
-# 第二章&emsp;颞叶癫痫患者术前定位研究
+# 第一章&emsp;基于孪生神经网络的颞叶癫痫术前定位研究
 
 ## 引言
 
@@ -225,7 +225,7 @@ Std                            & 0.047                        & 0.172           
 \end{table}
 
 
-# 第三章&emsp;颞叶癫痫患者术后复发预测研究
+# 第二章&emsp;基于深度残差网络的颞叶癫痫术后复发预测研究
 
 ## 引言
 
@@ -274,7 +274,7 @@ PDP plots:
 
 
 
-# 第四章&emsp;总结与展望
+# 总结与展望
 
 ## 结论
 

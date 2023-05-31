@@ -1,6 +1,6 @@
 ---
-title: "基于人工智能技术在颞叶癫痫$^{18}$F-FDG PET/MRI多模态影像研究" 
-subtitle: "博士论文预答辩"
+title: "基于人工智能技术的颞叶癫痫  \t\n  $^{18}$F-FDG PET/MRI多模态影像研究" 
+subtitle: "博士论文答辩"
 author: 
   - "汇报人：吴环华  \t\n 导师：徐浩&emsp;教授$^{*}$ &nbsp;"
 institute:  暨南大学第一临床医学院 &nbsp;
@@ -76,78 +76,81 @@ lgr::get_logger("bbotk")$set_threshold("warn")
 ```
 
 # 绪论
-
 ## 引言 {.allowframebreaks}
-图1（A）2016年全球特发性癫痫的年龄标准化流行率地图和（B）中国国家癫痫预防和控制管理项目覆盖的农村地区
-```{r echo=FALSE, out.width=c("100%"), fig.cap="Epilepsy Epidemiology"}
+### 1.1 癫痫影像学研究背景
+```{r echo=FALSE, out.width=c("100%"), fig.cap="图1（A）2016年全球特发性癫痫的年龄标准化流行率地图和（B）中国国家癫痫预防和控制管理项目覆盖的农村地区"}
 knitr::include_graphics(c("Dr_pic/图1.1.pdf"))
 ```
 
-\newpage
-图1.2 癫痫疾病不同影像检查技术时空分辨率比较^[23]^
-
 ---
 
-图1.3 $^{18}$F-FDG PET成像原理图
-
-
-
-\newpage
-图1.4 18F-FDG PET/MRI多模态融合示例图
-
-
-## 材料与方法 {.allowframebreaks}
-
-\begin{columns}
-\column{.45\textwidth}
-\begin{figure}
-\centering
-% Requires \usepackage{graphicx}
-\includegraphics[width=5.5cm]{images/PT_T1_BLS-Siamese.pdf}
-\caption{Black-box of AI}
-\end{figure}
-\column{.65\textwidth}
-\begin{figure}
-\centering
-% Requires \usepackage{graphicx}
-\includegraphics[width=6.3cm]{images/xai.png}
-\caption{Learning Performance Versus Explainability Trade-Off of AI}
-\end{figure}
-\end{columns}
-
-<!-- ## -->
-
-<!-- ```{r echo=FALSE, out.width=c("70%", "80%"),fig.cap="Focus on Interpretability of ML"} -->
-<!-- knitr::include_graphics(c("images/Black-box.png", "images/xai.png")) -->
-
----
-
-```{r echo=FALSE, out.width=c("110%"),fig.align="center", fig.cap="PET Radiomics  Score and Clinical-PET Features"}
-knitr::include_graphics(c("images/PET_radiomics.png"))
+```{r echo=FALSE, out.width=c("100%"), fig.cap="图2 癫痫疾病不同影像检查技术时空分辨率比较"}
+knitr::include_graphics(c("Dr_pic/图1.2.pdf"))
 ```
 
 ---
 
-相关热图
-```{r echo=FALSE, out.width=c("60%"),fig.align="center", fig.cap="Heatmap of Clinical-PET Features"}
-knitr::include_graphics(c("images/heatplot.png"))
+### 1.2 人工智能概述
+```{r echo=FALSE, out.width=c("100%"), fig.cap="人工智能技术简介及发展历程"}
+knitr::include_graphics(c("Dr_pic/图1.5.png"))
 ```
+
+---
+
+### 1.3 研究目的
+
+- 旨在对癫痫影像学与人工智能领域研究进行系统综述和趋势展望，
+
+- 拟将文献计量分析方法应用于癫痫影像学与人工智能的研究中，
+
+- 探讨当前的研究动态及热点，挖掘分析尚需改进的内容，
+
+- 对癫痫影像学与人工智能研究领域的探索提供理论依据，确定研究方向及目标。
+
+---
+
+## 2 文献计量分析
+### 2.1 数据来源
 
 ## 实验结果
 
-shiyan1
+**表 1:** WoSCC数据库检索流程及结果
+\centering
+\tiny
+\begin{table}[!ht]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+        步骤 & 结果 & 定义 \\ \hline
+        \# 1 & 132,750 & TS = (“Epileps*”) Timespan:2000-01-01 to 2023-03-01 \\ \hline
+        \# 2 & 592,310 & TS = (“PET” or “PET/MR*” or “MRI” or “neuroimaging”)\\Timespan:2000-01-01 to 2023-03-01 \\ \hline
+        \# 3 & 534,113 & TS = (“machine learning” or “deep learning” or “deep neural networks” or “convolutional neural networks” or “artificial intelligence”) Timespan:2000-01-01 to 2023-03-01 \\ \hline
+        \# 4 & 240 & \#3 AND \#2 AND \#1 \\ \hline
+        \# 5 & 168 & \#3 AND \#2 AND \#1 and Article (文献类型) and English (语言) \\ \hline
+    \end{tabular}
+\end{table}
 
 ---
 
-shiyan
+<font size=3>
+
+| 步骤  | 结果      | 定义                                                                                                                                                                       |
+|-----|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| # 1 | 132,750 | TS = (“Epileps*”) Timespan:2000-01-01 to 2023-03-01                                                                                                                      |
+| # 2 | 592,310 | TS = (“PET” or “PET/MR*” or “MRI” or “neuroimaging”)                                                   Timespan:2000-01-01 to 2023-03-01                                 |
+| # 3 | 534,113 | TS = (“machine learning” or “deep learning” or “deep neural networks” or “convolutional neural networks” or “artificial intelligence”) Timespan:2000-01-01 to 2023-03-01 |
+| # 4 | 240     | #3 AND #2 AND #1                                                                                                                                                         |
+| # 5 | 168     | #3 AND #2 AND #1 and Article (文献类型) and English (语言)    
+
+</font>
+---
+
+## 讨论及小结
+### 论文研究内容及组织结构
 
 
-## 讨论
 
-
-
-## 小结
-
+---
 
 # 第一章&emsp;基于孪生神经网络的颞叶癫痫术前定位研究
 
@@ -168,29 +171,6 @@ knitr::include_graphics(c("images/PET_radiomics.png"))
 ```{r echo=FALSE, out.width=c("60%"),fig.align="center", fig.cap="Heatmap of Clinical-PET Features"}
 knitr::include_graphics(c("images/heatplot.png"))
 ```
-
-## 实验结果
-
-**Table 1:** Performance Comparison Eleven ML Algorithms
-\centering
-\tiny
-\begin{table}[]
-\begin{tabular}{lllllllll} \hline
-Model                           & Accuracy & AUC   & Recall & Prec. & F1    & Kappa & MCC   & APC   \\ \hline
-Ada Boost Classifier            & 0.883    & 0.789 & 0.4    & 0.433 & 0.393 & 0.345 & 0.357 & 0.59  \\ 
-Extreme Gradient Boosting       & 0.884    & 0.777 & 0.3    & 0.4   & 0.333 & 0.287 & 0.295 & 0.607 \\
-Random Forest Classifier        & 0.884    & 0.763 & 0.2    & 0.35  & 0.25  & 0.217 & 0.23  & 0.612 \\
-Gradient Boosting Classifier    & 0.89     & 0.762 & 0.35   & 0.483 & 0.39  & 0.346 & 0.36  & 0.591 \\
-Light Gradient Boosting Machine & 0.859    & 0.749 & 0.25   & 0.325 & 0.267 & 0.211 & 0.221 & 0.512 \\
-Logistic Regression             & 0.878    & 0.669 & 0.05   & 0.1   & 0.067 & 0.055 & 0.059 & 0.448 \\
-Extra Trees Classifier          & 0.884    & 0.662 & 0.1    & 0.2   & 0.133 & 0.118 & 0.127 & 0.443 \\
-K Neighbors Classifier          & 0.865    & 0.646 & 0.2    & 0.2   & 0.183 & 0.14  & 0.149 & 0.283 \\
-Linear Discriminant Analysis    & 0.884    & 0.642 & 0.1    & 0.2   & 0.133 & 0.119 & 0.128 & 0.418 \\
-Naive Bayes                     & 0.251    & 0.586 & 0.9    & 0.129 & 0.226 & 0.014 & 0.072 & 0.332 \\
-Decision Tree Classifier        & 0.798    & 0.584 & 0.3    & 0.264 & 0.259 & 0.158 & 0.167 & 0.218 \\
-Std                             & 0.047    & 0.172 & 0.320  & 0.490 & 0.367 & 0.368 & 0.384 & 0.200 \\ \hline
-\end{tabular}
-\end{table}
 
 ## 讨论
 

@@ -33,3 +33,23 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## 材料与方法 {.allowframebreaks}
+
+\begin{columns}
+\column{.45\textwidth}
+\begin{figure}
+\centering
+% Requires \usepackage{graphicx}
+\includegraphics[width=5.5cm]{images/PT_T1_BLS-Siamese.pdf}
+\caption{Black-box of AI}
+\end{figure}
+\column{.65\textwidth}
+\begin{figure}
+\centering
+% Requires \usepackage{graphicx}
+\includegraphics[width=6.3cm]{images/xai.png}
+\caption{Learning Performance Versus Explainability Trade-Off of AI}
+\end{figure}
+\end{columns}
+
